@@ -358,10 +358,10 @@
   --ensurance-nav-link-color: null;
   --ensurance-nav-link-hover-color: null;
   --ensurance-nav-link-disabled-color: #627E84;
-  --ensurance-nav-tabs-border-color: #B5CACE;
+  --ensurance-nav-tabs-border-color: #6ad5eb;
   --ensurance-nav-tabs-link-hover-border-color: #CDD8DA #CDD8DA #B5CACE;
-  --ensurance-nav-tabs-link-active-color: #5B7075;
-  --ensurance-nav-tabs-link-active-bg: #fff;
+  --ensurance-nav-tabs-link-active-color: #dfe6e7;
+  --ensurance-nav-tabs-link-active-bg: rgb(255, 255, 255);
   --ensurance-nav-tabs-link-active-border-color: #B5CACE #B5CACE #fff;
   --ensurance-bg-navbar-glass: rgba(205, 216, 218, 0.96);
   --ensurance-nav-pills-link-active-color: #fff;
@@ -1165,6 +1165,7 @@ progress {
 .img-fluid {
   max-width: 100%;
   height: auto;
+  border-radius: 10px;
 }
 
 .img-thumbnail {
@@ -1176,6 +1177,7 @@ progress {
   box-shadow: var(--ensurance-box-shadow-sm);
   max-width: 100%;
   height: auto;
+  border-radius: 10px;
 }
 
 .figure {
@@ -1185,6 +1187,7 @@ progress {
 .figure-img {
   margin-bottom: 0.5rem;
   line-height: 1;
+  border-radius: 10px;
 }
 
 .figure-caption {
